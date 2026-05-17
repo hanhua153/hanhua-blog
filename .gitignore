@@ -1,0 +1,6 @@
+*.toml
+hugo.toml
+.hugo_build.lock
+public/
+resources/
+themes/PaperMod/.git
