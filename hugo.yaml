@@ -49,7 +49,7 @@ params:
     paginate: 7
 
   footer:
-    custom: "<a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备2026016259号-1</a>"
+    custom: '<a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备2026016259号-1</a>'
 
 markup:
   highlight:
