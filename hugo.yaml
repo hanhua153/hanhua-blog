@@ -1,6 +1,6 @@
 baseURL: "https://hanhua.asia/"
 languageCode: "zh-cn"
-title: "寒花的技术站"
+title: "知识积累"
 theme: "PaperMod"
 
 permalinks:
@@ -15,7 +15,7 @@ outputs:
 
 params:
   env: production
-  title: "寒花的技术站"
+  title: "知识积累"
   description: "技术笔记与个人博客"
   author: "寒花"
   keywords: ["blog", "技术", "笔记"]
@@ -47,6 +47,9 @@ params:
     hideReadMore: false
     hideElseContent: false
     paginate: 7
+
+  footer:
+    custom: "<a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备2026016259号-1</a>"
 
 markup:
   highlight:
