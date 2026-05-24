@@ -40,7 +40,7 @@ params:
         url: posts/
       - name: 搜索
         url: search/
-      - name: 关于
+      - name: 网站更新日志
         url: about/
 
   home:
@@ -64,8 +64,8 @@ menu:
       name: 搜索
       url: /search/
       weight: 20
-    - identifier: about
-      name: 关于
+    - identifier: changelog
+      name: 网站更新日志
       url: /about/
       weight: 30
 
