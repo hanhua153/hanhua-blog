@@ -10,6 +10,7 @@ outputs:
   home:
     - HTML
     - RSS
+    - JSON
   page:
     - HTML
 
@@ -37,6 +38,8 @@ params:
     buttons:
       - name: 博客
         url: posts/
+      - name: 搜索
+        url: search/
       - name: 关于
         url: about/
 
@@ -50,6 +53,21 @@ params:
 
   footer:
     text: '[闽ICP备2026016259号-1](https://beian.miit.gov.cn/)'
+
+menu:
+  main:
+    - identifier: posts
+      name: 博客
+      url: /posts/
+      weight: 10
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 20
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 30
 
 markup:
   highlight:
